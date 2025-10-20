@@ -1,0 +1,15 @@
+{
+  "name": "testse3316-lab4",
+  "version": "1.0.0",
+  "description": "Please put all front-end files in the folder named `client` and all back-end files in the folder named `server`.",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "nodemon server/server.js",
+    "client": "npm start --prefix client"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+
+}
