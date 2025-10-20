@@ -1,0 +1,20 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "csv-parser": "^3.0.0",
+    "express": "^4.21.1",
+    "firebase-admin": "^13.0.1",
+    "leaflet": "^1.9.4",
+    "string-similarity": "^4.0.4",
+    "validator": "^13.12.0"
+  }
+}
